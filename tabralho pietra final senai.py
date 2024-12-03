@@ -2,10 +2,23 @@ from InquirerPy import prompt
 
 # dicionario da tabela fipe
 tabela_fipe = {
-    "Civic 2020": 85000,
-    "Corolla 2019": 80000,
-    "Onix 2021": 70000,
-    "HR-V 2022": 120000,
+    # Volkswagen
+    "Gol": 75000,
+    "Polo": 105000,
+    "Virtus": 125000,
+    "T-Cross": 140000,
+    "Nivus": 135000,
+    # Chevrolet
+    "Onix": 75000,
+    "Cruz": 160000,
+    "Spin": 115000,
+    "S10": 190000,
+    # Toyota
+    "Corolla": 145000,
+    "Yaris": 95000,
+    "Hilux": 230000,
+    "Etios": 85000,
+    "SW4": 285000
 }
 
 # lista de venda de veiculo
@@ -36,13 +49,13 @@ while True:
 
     if resposta == "🛻 Vender veiculo":
         print("\n>>> Venda de Veículo <<< 🛻")
-        modelo = input("📄 Informe o modelo do veiculo (Ex.: Civico 2020): ")
+        modelo = input("📄 Informe o modelo do veiculo (Ex: Civico 2020): ")
         if modelo not in tabela_fipe:
             print("❌ Esse modelo nao ta na tabela FIPE, meu parceiro")
             continue
         valor_fipe = tabela_fipe[modelo]
         proposta = valor_fipe * 0.88
-        print(f"🤑 O valor avaliado foi R$ {valor_fipe:.2f}. A gente te paga R$ {proposta:.2f}.")
+        print(f"🤑 O valor avaliado foi R$ {valor_fipe:.2f} A gente te paga R$ {proposta:.2f}")
         if input("🤔 Aceita a proposta? (s/n): ").lower() == 's':
             cliente["saldo"] += proposta
             veiculos_venda.append(modelo)
