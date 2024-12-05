@@ -22,7 +22,7 @@ tabela_fipe = {
 }
 
 # lista de venda de veiculo
-veiculos_venda = ["Civic 2020", "Onix 2021"]
+veiculos_venda = ["Civic 2020", "Onix 2021","SW4","Corolla","Etios","Yaris","Hilux","S10","Spin","Cruz","Nivus"]
 #lista de aluguel de veiculo
 veiculos_aluguel = ["Corolla 2019", "HR-V 2022","HR-V 2022"]
 
