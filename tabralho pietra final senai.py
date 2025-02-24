@@ -24,7 +24,7 @@ tabela_fipe = {
 # lista de venda de veiculo
 veiculos_venda = ["Civic 2020", "Onix 2021","SW4","Corolla","Etios","Yaris","Hilux","S10","Spin","Cruz","Nivus"]
 #lista de aluguel de veiculo
-veiculos_aluguel = ["Corolla 2019", "HR-V 2022","HR-V 2022"]
+veiculos_aluguel = ["Corolla 2019", "HR-V 2022","Yaris","SW4","Spin","T-Cross"]
 
 # revceber os dados do cliente
 cliente = {
@@ -112,4 +112,3 @@ while True:
     elif resposta == "❌ Sair":
         print("👋 Tchau, obrigado! 🚗💨 Volte sempre")
         break
-
