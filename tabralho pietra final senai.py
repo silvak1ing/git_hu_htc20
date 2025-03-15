@@ -28,7 +28,7 @@ veiculos_aluguel = ["Corolla 2019", "HR-V 2022","Yaris","SW4","Spin","T-Cross"]
 
 # revceber os dados do cliente
 cliente = {
-    "nome": input("👤 Qual e o seu nome? "),
+    "nome": input("👤 Qual e o seu nome11? "),
     "telefone": input("📞 Telefone (so pra formalidade, relaxa!): "),
     "saldo": float(input("💰 Quantos de badalo voce tem R$: "))
 }
